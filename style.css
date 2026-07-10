@@ -40,31 +40,32 @@ body {
   font-size: 12;
   letter-spacing: 0;
   color: #a5a3b9;
-  padding: 0, 25px, 0, 25px;
+  margin: 30px 0 0 0;
+}
+
+.product-name {
+  font-size: 20px;
+  margin: 5px 0 0 0;
 }
 
 .description {
   text-wrap: wrap;
-  padding: 0, 25px, 0, 25px;
-}
-
-
-.product-name {
-  font-size: 20px;
+  margin: 5px 0 15px 0;
 }
 
 .content {
   font-size: 13px;
-
-  padding: 0, 25px, 0, 25px;
 }
 
 .content-items {
   font-size: 13px;
-  padding: 0, 25px, 0, 25px;
 }
 
 .price {
+  margin: 25px 0 0 0;
+}
+
+.price-word {
   font-size: 20px;
   width: 75%;
   display: inline-block;
