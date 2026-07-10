@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #515076;
+}
+
+.product-list {
+  list-style-type: 0;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.title {
+  font-size: 70px;
+  position: absolute;
+  top: 36px;
+  left: 200px;
+}
+
+.card {
+  width: 340px;
+  height: 573px;
+  background-color: #f7f7fa;
+}
+
+.images {
+  position: relative;
+  top: 25px;
+  left: 25px;
+  right: 25px;
+}
+
+.text {
+  padding: 10px 25px 25px 25px;
+}
+
+.prescription {
+  font-size: 12;
+  letter-spacing: 0;
+  color: #a5a3b9;
+  padding: 0, 25px, 0, 25px;
+}
+
+.description {
+  text-wrap: wrap;
+  padding: 0, 25px, 0, 25px;
+}
+
+
+.product-name {
+  font-size: 20px;
+}
+
+.content {
+  font-size: 13px;
+
+  padding: 0, 25px, 0, 25px;
+}
+
+.content-items {
+  font-size: 13px;
+  padding: 0, 25px, 0, 25px;
+}
+
+.price {
+  font-size: 20px;
+  width: 75%;
+  display: inline-block;
+}
+
+.price-number {
+  font-size: 20px;
+}
+
+.moisturizing-mouse {
+  position: absolute;
+  left: 38px;
+  top: 236px;
+
+}
+
+.moisturizing-mask {
+  position: absolute;
+  left: 423px;
+  top: 236px;
+
+}
+
+.cleansing-gel {
+  position: absolute;
+  left: 808px;
+  top: 236px;
+}
+
+
+.gift-set-1 {
+  position: absolute;
+  left: 192px;
+  top: 854px;
+}
+
+.gift-set-2 {
+  position: absolute;
+  left: 577px;
+  top: 854px;
+}
