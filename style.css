@@ -1,109 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   font-size: 13px;
-  line-height: 24px;
+  line-height: 18px;
+  letter-spacing: 0;
   color: #515076;
+
+  background-image: url("images/bg\(cards\ training\).png");
+  background-repeat: no-repeat;
+  background-position: 150px -120px;
 }
 
-.product-list {
-  list-style-type: 0;
+.products-list {
+  list-style: none;
   padding: 0px;
-  margin: 0px;
-
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 45px;
+  column-gap: 43px;
+  justify-content: center;
+  width: 1110px;
 }
+
+
 
 .title {
   font-size: 70px;
-  position: absolute;
-  top: 36px;
-  left: 200px;
+  font-weight: 400;
+  line-height: 78px;
+  text-align: center;
+  margin: 0 0 110px 0;
 }
 
 .card {
   width: 340px;
   height: 573px;
   background-color: #f7f7fa;
+  padding: 25px;
 }
 
 .images {
-  position: relative;
-  top: 25px;
-  left: 25px;
-  right: 25px;
-}
-
-.text {
-  padding: 10px 25px 25px 25px;
+  margin: 0 0 30px 0;
 }
 
 .prescription {
   font-size: 12;
-  letter-spacing: 0;
   color: #a5a3b9;
-  margin: 30px 0 0 0;
+  margin: 0 0 5px 0;
+  line-height: 24px;
 }
 
 .product-name {
   font-size: 20px;
-  margin: 5px 0 0 0;
+  margin: 0;
 }
 
 .description {
   text-wrap: wrap;
   margin: 5px 0 15px 0;
-}
-
-.content {
-  font-size: 13px;
+  line-height: 27px;
 }
 
 .content-items {
-  font-size: 13px;
+  list-style-position: inside;
+  padding: 0;
 }
 
 .price {
   margin: 25px 0 0 0;
+  line-height: 24px;
 }
 
 .price-word {
   font-size: 20px;
-  width: 75%;
   display: inline-block;
+  width: 75%;
 }
 
 .price-number {
   font-size: 20px;
-}
-
-.moisturizing-mouse {
-  position: absolute;
-  left: 38px;
-  top: 236px;
-
-}
-
-.moisturizing-mask {
-  position: absolute;
-  left: 423px;
-  top: 236px;
-
-}
-
-.cleansing-gel {
-  position: absolute;
-  left: 808px;
-  top: 236px;
-}
-
-
-.gift-set-1 {
-  position: absolute;
-  left: 192px;
-  top: 854px;
-}
-
-.gift-set-2 {
-  position: absolute;
-  left: 577px;
-  top: 854px;
 }
