@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 13px;
   line-height: 18px;
   letter-spacing: 0;
@@ -78,7 +78,7 @@ body {
 .price-word {
   font-size: 20px;
   display: inline-block;
-  width: 75%;
+  width: 70%;
 }
 
 .price-number {
