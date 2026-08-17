@@ -1,0 +1,28 @@
+.card {
+  width: 340px;
+  height: 573px;
+  background-color: #f7f7fa;
+  padding: 25px;
+}
+
+.card__image {
+  margin-bottom: 30px;
+}
+
+.card__prescription {
+  font-size: 12;
+  color: #a5a3b9;
+  margin-bottom: 5px;
+  line-height: 24px;
+}
+
+.card__product-name {
+  font-size: 20px;
+  margin: 0;
+}
+
+.card__description {
+  text-wrap: wrap;
+  margin: 5px 0 15px 0;
+  line-height: 27px;
+}
