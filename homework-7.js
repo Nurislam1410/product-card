@@ -23,17 +23,21 @@ const productName = "Macbook M5";
 const productPrice = 1500;
 
 function purchaseProduct(budget) {
-  if (budget >= 1500) {
+  if (budget >= productPrice) {
     console.log(`${productName} приобретён. Спасибо за покупку!`);
   } else {
-    console.log(`Вам не хватает ${1500 - budget}$, пополните баланс`);
+    console.log(`Вам не хватает ${productPrice - budget}$, пополните баланс`);
   }
 }
 
 purchaseProduct(1300);
 
 // 6.
-function setTimer(startTime) { }
+function getName(name) {
+  console.log(`Your name is ${name}`);
+}
+
+getName("Nuris");
 
 // 7.
 let sisterName = 'Maria';
