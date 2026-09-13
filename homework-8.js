@@ -18,12 +18,12 @@ const car = {
   year: 2009,
   color: "grey",
   transmission: "auto",
-  owner: {
-    first_name: "Nurislam",
-    last_name: "Saliev",
-    age: 23
-  }
+  owner: {}
 }
+
+car.owner = { ...user };
+
+console.log(car.owner);
 
 // 5.
 function isMaxSpeedPresent(object) {
