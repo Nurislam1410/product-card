@@ -18,23 +18,28 @@ const car = {
   year: 2009,
   color: "grey",
   transmission: "auto",
-  owner: {}
+  owner: {
+    first_name: "Nurislam",
+    last_name: "Saliev",
+    age: 23
+  }
 }
 
 // 5.
 function isMaxSpeedPresent(object) {
-  if (!object.maxSpeed) {
+  if (!("maxSpeed" in object)) {
     object.maxSpeed = 260;
-    console.log(car.owner);
   }
+  console.log(object);
 }
 
 isMaxSpeedPresent(car.owner);
 
 // 6. 
 function getObjectValue(object, property) {
-  return Object.getObjectValue(object.property);
+  return object[property];
 }
+console.log(getObjectValue(car, "make"));
 
 // 7.
 const products = ["shampoo", "body wash", "hand soap"];
@@ -74,8 +79,6 @@ books_1.push({
 })
 
 // 9.
-
-
 const books_2 = [
   {
     title: "The Hobbit",
